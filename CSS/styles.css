@@ -60,10 +60,15 @@ th{
   width: 100%;
 }
 
-.navbar a {
-  float: left;
-  display: block;
+.navbar div a {
   color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar div {
+  float: left; 
+  display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
