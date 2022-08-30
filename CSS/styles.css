@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px 100px 0 100px;
+  font-family: 'Sacramento', cursive;
+  color: black;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin-left: 10px;
+}
+
+ul{
+  margin-left: 10px;
+}
+
+p{
+  line-height: 2;
+}
+
+blockquote{
+  text-align: right;
+  margin-right: 20px;
+}
+
+table{
+  border:1px solid black;
+  width: 100%
+}
+td{
+  border:1px solid black;
+}
+tr{
+  border:1px solid black;
+}
+th{
+  border:1px solid black;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.profile_picture {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle_container {
+  padding-left: 20px;
+  margin: 80px 10px;
+
+}
+
+.languages{
+  padding-left: 20px;
+  text-align: left;
+}
+
+.blockquote_div{
+
+  text-align: right;
+  margin-right: 40px;
+
+}
+
+.yoda_img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle_container_skills {
+  padding-left: 20px;
+  margin: 80px 10px;
+
+}
+
+.middle_container_education {
+  padding-left: 20px;
+  margin: 80px 10px;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.skill-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
