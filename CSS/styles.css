@@ -155,5 +155,6 @@ th{
 
 .question_box{
   text-align: left;
+  display: inline-block;
 }
 
