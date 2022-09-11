@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Homework 2</title>
+</head>
+
+<body>
+  <div class="top_container">
+    <div class="navbar">
+
+        <div>
+          <a href="index.html">Home</a>
+          <a href="mySkills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="quiz.html">Quiz</a>
+  
+        </div>  
+  
+      </div>
+    <h1>Homework 2 Quiz</h1>
+  </div>
+
+  <div class="middle_container_questions">
+    <div id="resultsBox">
+      <span id="correctAnswers"></span>
+    </div>
+
+    <div class="results_box">
+
+    </div>
+    <div class="question_box">
+      <h3 id="promptQuestion"></h3>
+      <div id="checkboxes">
+        <div>
+          <input id="checkbox1" type="radio" name="option" value="A">
+          <span id="option_a"></span>
+        </div>
+        <div>
+          <input id="checkbox2" type="radio" name="option" value="B">
+          <span id="option_b"></span>
+        </div>
+        <div>
+          <input id="checkbox3" type="radio" name="option" value="C">
+          <span id="option_c"></span>
+        </div>
+        <div>
+          <input id="checkbox4" type="radio" name="option" value="D">
+          <span id="option_d"></span>
+        </div>
+
+        <button id="submit_button" type="submit" onclick="submit()" name="option">submit</button>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

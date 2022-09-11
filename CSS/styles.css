@@ -138,3 +138,22 @@ th{
   float: right;
   margin-left: 30px;
 }
+
+.middle_container_questions{
+  border-style: solid;
+  margin: 10rem;
+  
+
+}
+
+#final{
+  text-align: center;
+  margin: auto;
+
+
+}
+
+.question_box{
+  text-align: left;
+}
+
