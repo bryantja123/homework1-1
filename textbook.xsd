@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="semester_books">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book" type="xs:string" />
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string" />
+                        <xs:element name="authors" type="xs:string" />
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="author" type="xs:string" />
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstname" type="xs:string" />
+                                        <xs:element name="lastname" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:sequence>
+                        </xs:complexType>
+                        <xs:element name="publisher" type="xs:string" />
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="name" type="xs:string" />
+                                <xs:element name="site" type="xs:string" />
+                            </xs:sequence>
+                            <xs:complexType>
+                                <xs:element name="year" type="xs:string" />
+                                <xs:element name="ISBN" type="xs:string" />
+                                <xs:element name="edition" type="xs:string" />
+                                <xs:element name="cover" type="xs:string" />
+                            </xs:complexType>
+                        </xs:complexType>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

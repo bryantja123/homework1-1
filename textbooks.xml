@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+
+<semester_books>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="textbook.xsd">
+    <book>
+        <title>HComputer Nerworking: A Top-Down Approach</title>
+        <authors>
+            <author>
+                <firstname>Jim</firstname>
+                <lastname>Kurose</lastname>
+            </author>
+        </authors>
+        <publisher>
+            <name>Addison-Wesley</name>
+            <site>https://www.amazon.com</site>
+        </publisher>
+        <year>2017</year>
+        <ISBN>9791185475318</ISBN>
+        <edition>7th Edition</edition>
+        <cover>Paperback</cover>
+    </book>
+
+    <book>
+        <title>Internet and World Wide Web</title>
+        <authors>
+            <author>
+                <firstname>Harvey</firstname>
+                <lastname>Deitel</lastname>
+            </author>
+            <author>
+                <firstname>Paul</firstname>
+                <lastname>Deitel</lastname>
+            </author>
+        </authors>
+        <publisher>
+            <name>Prentice Hall</name>
+            <site>https://www.abebooks.com/</site>
+        </publisher>
+        <year>2004</year>
+        <ISBN>9780131450912</ISBN>
+        <edition>3rd Edition</edition>
+        <cover>Hardcover</cover>
+    </book>
+</semester_books>
